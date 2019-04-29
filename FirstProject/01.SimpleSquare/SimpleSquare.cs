@@ -2,19 +2,23 @@
 
 namespace SimpleSquare
 {
-	public class SimpleSquare
+    public class SimpleSquare
 	{
-		public static void Main()
+        private const int sides = 10;
+           
+
+        public static void Main()
 		{
             Tortoise.Show();
           
             Tortoise.SetSpeed(10);
          
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < sides; i++)
             {
-                Tortoise.SetPenColor("blue");
+                Tortoise.SetPenWidth(2);
+                Tortoise.SetPenColor(Colors.GetRandomColor());
                 Tortoise.Move(50);
-                Tortoise.Turn(90);
+                Tortoise.Turn(360.0 / sides);
 
             }
           
