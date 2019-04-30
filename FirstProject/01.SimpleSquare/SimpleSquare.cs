@@ -4,7 +4,7 @@ namespace SimpleSquare
 {
     public class SimpleSquare
 	{
-        private const int sides = 10;
+        private const int sides = 7;
            
 
         public static void Main()
