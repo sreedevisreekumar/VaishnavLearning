@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SimpleSquare.SimpleSquare</StartupObject>
+    <StartupObject>SimpleSquare.SimpleSquareQuiz</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SmallBasicFun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">

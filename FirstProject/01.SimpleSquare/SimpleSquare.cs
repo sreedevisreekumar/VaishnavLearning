@@ -8,14 +8,14 @@ namespace SimpleSquare
         public static void Main()
 		{
             Tortoise.Show();
-            Tortoise.SetSpeed(5);
+            Tortoise.SetSpeed(7);
             int sides = MessageBox.AskForInput("How many sides");
             for (int i = 0; i < sides; i++)
             {
-                Tortoise.SetPenWidth(5);
+                Tortoise.SetPenWidth(i*2.5);
                 Tortoise.SetPenColor(Colors.GetRandomColor());
-                Tortoise.Move(50);
-                Tortoise.Turn(360.0 / sides);
+                Tortoise.Move(i*3.5);
+                Tortoise.Turn(-3*360.0 / sides);
 
             }
           
